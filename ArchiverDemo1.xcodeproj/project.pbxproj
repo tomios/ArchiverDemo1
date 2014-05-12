@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2FEA73619209A7C00FDDBAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FEA73519209A7C00FDDBAC /* Foundation.framework */; };
+		C2FEA73919209A7C00FDDBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FEA73819209A7C00FDDBAC /* main.m */; };
+		C2FEA73D19209A7C00FDDBAC /* ArchiverDemo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2FEA73C19209A7C00FDDBAC /* ArchiverDemo1.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2FEA73019209A7C00FDDBAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C2FEA73D19209A7C00FDDBAC /* ArchiverDemo1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2FEA73219209A7C00FDDBAC /* ArchiverDemo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArchiverDemo1; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FEA73519209A7C00FDDBAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2FEA73819209A7C00FDDBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2FEA73B19209A7C00FDDBAC /* ArchiverDemo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArchiverDemo1-Prefix.pch"; sourceTree = "<group>"; };
+		C2FEA73C19209A7C00FDDBAC /* ArchiverDemo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ArchiverDemo1.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FEA72F19209A7C00FDDBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEA73619209A7C00FDDBAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2FEA72919209A7C00FDDBAC = {
+			isa = PBXGroup;
+			children = (
+				C2FEA73719209A7C00FDDBAC /* ArchiverDemo1 */,
+				C2FEA73419209A7C00FDDBAC /* Frameworks */,
+				C2FEA73319209A7C00FDDBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FEA73319209A7C00FDDBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA73219209A7C00FDDBAC /* ArchiverDemo1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FEA73419209A7C00FDDBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA73519209A7C00FDDBAC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2FEA73719209A7C00FDDBAC /* ArchiverDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA73819209A7C00FDDBAC /* main.m */,
+				C2FEA73C19209A7C00FDDBAC /* ArchiverDemo1.1 */,
+				C2FEA73A19209A7C00FDDBAC /* Supporting Files */,
+			);
+			path = ArchiverDemo1;
+			sourceTree = "<group>";
+		};
+		C2FEA73A19209A7C00FDDBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA73B19209A7C00FDDBAC /* ArchiverDemo1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FEA73119209A7C00FDDBAC /* ArchiverDemo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FEA74019209A7C00FDDBAC /* Build configuration list for PBXNativeTarget "ArchiverDemo1" */;
+			buildPhases = (
+				C2FEA72E19209A7C00FDDBAC /* Sources */,
+				C2FEA72F19209A7C00FDDBAC /* Frameworks */,
+				C2FEA73019209A7C00FDDBAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiverDemo1;
+			productName = ArchiverDemo1;
+			productReference = C2FEA73219209A7C00FDDBAC /* ArchiverDemo1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FEA72A19209A7C00FDDBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Tom;
+			};
+			buildConfigurationList = C2FEA72D19209A7C00FDDBAC /* Build configuration list for PBXProject "ArchiverDemo1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2FEA72919209A7C00FDDBAC;
+			productRefGroup = C2FEA73319209A7C00FDDBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FEA73119209A7C00FDDBAC /* ArchiverDemo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FEA72E19209A7C00FDDBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEA73919209A7C00FDDBAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2FEA73E19209A7C00FDDBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2FEA73F19209A7C00FDDBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2FEA74119209A7C00FDDBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiverDemo1/ArchiverDemo1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2FEA74219209A7C00FDDBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiverDemo1/ArchiverDemo1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FEA72D19209A7C00FDDBAC /* Build configuration list for PBXProject "ArchiverDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FEA73E19209A7C00FDDBAC /* Debug */,
+				C2FEA73F19209A7C00FDDBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FEA74019209A7C00FDDBAC /* Build configuration list for PBXNativeTarget "ArchiverDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FEA74119209A7C00FDDBAC /* Debug */,
+				C2FEA74219209A7C00FDDBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2FEA72A19209A7C00FDDBAC /* Project object */;
+}
